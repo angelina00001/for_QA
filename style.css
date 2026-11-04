@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -112,5 +116,11 @@ footer{
     margin-top: 40px;
     font-size: 11px;
     background-color: #4caf4f94;
+    
 }
 
+tbody tr:hover {
+    background-color: #e6fffd;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
